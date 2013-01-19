@@ -13,6 +13,7 @@ import edu.wpi.cs.wpisuitetng.modules.defecttracker.toolbar.ToolbarView;
 /**
  * This is where the module can define what's necessary to work correctly in Janeway.
  * The module consists of a single "Defects" tab.
+ * blah
  */
 public class JanewayModule implements IJanewayModule {
 
