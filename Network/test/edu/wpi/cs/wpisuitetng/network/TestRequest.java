@@ -72,7 +72,6 @@ public class TestRequest {
 	 */
 	@Test
 	public void testRequestConstructorNullPointerException() throws MalformedURLException {
-		fail();
 		try {
 			Request r = new Request(null, null, null);
 			fail("No NullPointerException thrown when constructing a Request with null networkConfiguration parameter.");
@@ -89,7 +88,6 @@ public class TestRequest {
 	 */
 	@Test
 	public void testRequestSetRequestMethodNullPointerException() throws MalformedURLException {
-		fail();
 		try {
 			Request r = new Request(config, null, null);
 			fail("No NullPointerException thrown when constructing a Request with null requestMethod parameter.");
