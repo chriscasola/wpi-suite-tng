@@ -16,8 +16,6 @@ import edu.wpi.cs.wpisuitetng.modules.defecttracker.toolbar.ToolbarView;
  */
 public class JanewayModule implements IJanewayModule {
 
-	this isn't even java
-	
 	private ArrayList<JanewayTabModel> tabs;
 	public MainTabController mainTabController;
 	public ToolbarController toolbarController;
